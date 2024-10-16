@@ -11,8 +11,8 @@ export default function SearchBox({ update }) {
     // const api_url = import.meta.env.API_URL;
     // const api_key = import.meta.env.API_KEY;
 
-    // const api_url = "http://api.openweathermap.org/data/2.5/weather";
-    // const api_key = "yoour api_key";
+    const api_url = "http://api.openweathermap.org/data/2.5/weather";
+    const api_key = "7b03553b6ab0ce6162bb70d50d721552";
 
     let getWeatherInfo = async () => {
         try {
